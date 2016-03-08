@@ -3,13 +3,18 @@
 
     <string-array name="activity_names">
         <item>P001LayoutLayoutLand</item>
-        <item>HATAP002onConfigurationChanged</item>
+        <item>P002onConfigurationChanged</item>
         <item>P003ListVSGenerics</item>
         <item>P004LayerList</item>
         <item>HATAP005ActionSEND</item>
         <item>P006AsyncTaskMantik</item>
         <item>P007GridView</item>
         <item>P008IntentForBroadcast</item>
+        <item>P009MenuItemOverview</item>
+        <item>HATAP010CustomToastMessage</item>
+        <item>P011Handler</item>
+        <item>HATAP012AsyncTaskReview</item>
+        <item>P013FixOrientation</item>
 
 
     </string-array>

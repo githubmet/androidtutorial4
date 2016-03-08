@@ -18,7 +18,8 @@ public class P002onConfigurationChanged extends Activity {
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
-        switch(newConfig.getLayoutDirection()){
+        super.onConfigurationChanged(newConfig);
+        switch(newConfig.orientation){
             case Configuration.ORIENTATION_PORTRAIT:
                 Toast.makeText(P002onConfigurationChanged.this,"Portrait",Toast.LENGTH_LONG).show();
                 break;

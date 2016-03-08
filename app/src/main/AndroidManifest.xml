@@ -46,6 +46,17 @@
             </intent-filter>
         </receiver>
 
+        <activity android:name=".P009MenuItemOverview"></activity>
+
+        <activity android:name=".P010CustomToastMessage"
+            android:configChanges="keyboardHidden|orientation|screenLayout"></activity>
+
+        <activity android:name=".P011Handler"></activity>
+
+        <activity android:name=".P012AsyncTaskReview"></activity>
+
+        <activity android:name=".P013FixOrientation"></activity>
+
     </application>
 
 </manifest>
