@@ -19,6 +19,8 @@
         <item>P015invalidateOptionsMenu</item>
         <item>P016ViewAnimator</item>
         <item>P017ViewAnimatorAndMenu</item>
+        <item>P018RadioGroupAndRecyclerView</item>
+        <item>P019CardView</item>
 
 
     </string-array>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonLeftP018"
+            android:text="LinearLayoutManager"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonRightP018"
+            android:text="GridLayoutManager"
+            android:layout_weight="1"/>
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerViewP018"/>
+
+
+</LinearLayout>

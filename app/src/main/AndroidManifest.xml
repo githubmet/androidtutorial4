@@ -65,6 +65,10 @@
 
         <activity android:name=".P017ViewAnimatorAndMenu"></activity>
 
+        <activity android:name=".P018RadioGroupAndRecyclerView"></activity>
+
+        <activity android:name=".P019CardView"></activity>
+
     </application>
 
 </manifest>
