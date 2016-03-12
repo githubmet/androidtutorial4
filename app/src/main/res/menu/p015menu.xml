@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.donottouch3.myapplication2.MainActivity">
+    <item
+        android:title="turn on"
+        android:id="@+id/itemP015"
+        app:showAsAction="always" />
+</menu>

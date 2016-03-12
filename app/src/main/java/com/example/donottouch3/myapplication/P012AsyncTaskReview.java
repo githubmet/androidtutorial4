@@ -35,7 +35,7 @@ public class P012AsyncTaskReview extends Activity {
         @Override
         protected void onPreExecute() {
             arrayAdapter= (ArrayAdapter<String>) listViewP012.getAdapter();
-            setProgressBarIndeterminate(true);
+            setProgressBarIndeterminate(false);
             setProgressBarVisibility(true);
         }
         @Override

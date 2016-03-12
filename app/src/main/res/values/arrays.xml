@@ -15,6 +15,10 @@
         <item>P011Handler</item>
         <item>HATAP012AsyncTaskReview</item>
         <item>P013FixOrientation</item>
+        <item>P014ThreadReview</item>
+        <item>P015invalidateOptionsMenu</item>
+        <item>P016ViewAnimator</item>
+        <item>P017ViewAnimatorAndMenu</item>
 
 
     </string-array>

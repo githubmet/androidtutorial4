@@ -11,7 +11,7 @@
         <activity
             android:name=".P000Menu"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -56,6 +56,14 @@
         <activity android:name=".P012AsyncTaskReview"></activity>
 
         <activity android:name=".P013FixOrientation"></activity>
+
+        <activity android:name=".P014ThreadReview"></activity>
+
+        <activity android:name=".P015invalidateOptionsMenu"></activity>
+
+        <activity android:name=".P016ViewAnimator"></activity>
+
+        <activity android:name=".P017ViewAnimatorAndMenu"></activity>
 
     </application>
 
