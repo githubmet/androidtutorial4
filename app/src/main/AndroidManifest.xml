@@ -69,6 +69,14 @@
 
         <activity android:name=".P019CardView"></activity>
 
+        <activity android:name=".P020StyleAndThemeForOneView"></activity>
+
+        <activity android:name=".P021ViewPager"></activity>
+
+        <activity android:name=".P022FrameLayoutProgrammatically"></activity>
+
+        <activity android:name=".P023ViewPager"></activity>
+
     </application>
 
 </manifest>

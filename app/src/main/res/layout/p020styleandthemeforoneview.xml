@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/MyTextStyleForOneView.Title"
+        android:id="@+id/textViewP020"
+        android:text="The New York Times"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        style="@style/MyTextStyleForOneView"
+        android:layout_below="@+id/textViewP020"
+        android:text="@string/all_i_need"/>
+    <TextView
+        style="@style/MyTextStyleForOneView"
+        android:layout_alignParentBottom="true"
+        android:text="All right reserved"/>
+
+
+</RelativeLayout>

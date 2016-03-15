@@ -21,6 +21,10 @@
         <item>P017ViewAnimatorAndMenu</item>
         <item>P018RadioGroupAndRecyclerView</item>
         <item>P019CardView</item>
+        <item>P020StyleAndThemeForOneView</item>
+        <item>P021ViewPager</item>
+        <item>P022FrameLayoutProgrammatically</item>
+        <item>P023ViewPager</item>
 
 
     </string-array>
@@ -44,4 +48,41 @@
         <item>France</item>
         <item>Spain</item>
     </string-array>
+
+    <string-array name="string_image_id_">
+        <item>@drawable/sample_0</item>
+        <item>@drawable/sample_1</item>
+        <item>@drawable/sample_2</item>
+        <item>@drawable/sample_3</item>
+        <item>@drawable/sample_4</item>
+        <item>@drawable/sample_5</item>
+        <item>@drawable/sample_6</item>
+        <item>@drawable/sample_7</item>
+    </string-array>
+
+    <integer-array name="integer_color_id">
+        <item>0xFF101010</item>
+        <item>0xFF202020</item>
+        <item>0xFF303030</item>
+        <item>0xFF404040</item>
+        <item>0xFF505050</item>
+        <item>0xFF606060</item>
+        <item>0xFF707070</item>
+        <item>0xFF808080</item>
+    </integer-array>
+
+
 </resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
