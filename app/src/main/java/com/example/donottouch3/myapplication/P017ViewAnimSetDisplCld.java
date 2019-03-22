@@ -7,7 +7,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ViewAnimator;
 
-public class P017ViewAnimatorAndMenu extends AppCompatActivity implements ViewAnimator.OnClickListener{
+public class P017ViewAnimSetDisplCld extends AppCompatActivity implements ViewAnimator.OnClickListener{
     ViewAnimator viewAnimatorP017;
     int checkThree=0;
     @Override

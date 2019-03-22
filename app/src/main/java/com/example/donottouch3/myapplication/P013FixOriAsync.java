@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class P013FixOrientation extends Activity implements View.OnClickListener{
+public class P013FixOriAsync extends Activity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,13 +28,13 @@ public class P013FixOrientation extends Activity implements View.OnClickListener
         @Override
         protected void onPreExecute() {
             textViewP013= (TextView)findViewById(R.id.textViewP013);
-            if(P013FixOrientation.this.getResources().getConfiguration().orientation==
+            if(P013FixOriAsync.this.getResources().getConfiguration().orientation==
                     Configuration.ORIENTATION_PORTRAIT){
-                P013FixOrientation.this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-                // P013FixOrientation.this.setRequestedOrientation(Configuration.ORIENTATION_PORTRAIT);
+                P013FixOriAsync.this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+                // P013FixOriAsync.this.setRequestedOrientation(Configuration.ORIENTATION_PORTRAIT);
             }
             else{
-                P013FixOrientation.this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+                P013FixOriAsync.this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
             }
 
         }
@@ -61,7 +61,7 @@ public class P013FixOrientation extends Activity implements View.OnClickListener
         protected void onPostExecute(String s) {
             textViewP013.setText(s);
             //This is return all restrict to normal
-            P013FixOrientation.this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
+            P013FixOriAsync.this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
         }
     }
 }

@@ -12,12 +12,10 @@ public class P000Menu extends ListActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        ArrayAdapter arrayAdapter=new ArrayAdapter(P000Menu.this,
-                android.R.layout.simple_list_item_1);
-        setListAdapter(arrayAdapter);
         String[] activityNames=getResources().getStringArray(R.array.activity_names);
-        arrayAdapter.addAll(activityNames);
+        ArrayAdapter arrayAdapter=new ArrayAdapter(P000Menu.this,
+                android.R.layout.simple_list_item_1,activityNames);
+        setListAdapter(arrayAdapter);
     }
 
     @Override

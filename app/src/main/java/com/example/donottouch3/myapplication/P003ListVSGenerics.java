@@ -18,7 +18,6 @@ public class P003ListVSGenerics extends Activity implements View.OnClickListener
     TextView textViewListGenericsP003;
     TextView textViewListIteratorP003;
     TextView textViewIntegerArrayP003;
-    AutoCompleteTextView autoCompleteTextViewP003;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,14 +36,6 @@ public class P003ListVSGenerics extends Activity implements View.OnClickListener
         textViewListGenericsP003= (TextView)findViewById(R.id.textViewListGenericsP003);
         textViewListIteratorP003= (TextView)findViewById(R.id.textViewListIteratorP003);
         textViewIntegerArrayP003=(TextView)findViewById(R.id.textViewIntegerArrayP003);
-
-        autoCompleteTextViewP003=(AutoCompleteTextView)findViewById
-                (R.id.autoCompleteTextViewP003);
-
-        String[] countryNames=getResources().getStringArray(R.array.country_names);
-        ArrayAdapter arrayAdapter=new ArrayAdapter(P003ListVSGenerics.this,
-                android.R.layout.simple_dropdown_item_1line,countryNames);
-        autoCompleteTextViewP003.setAdapter(arrayAdapter);
     }
 
     @Override

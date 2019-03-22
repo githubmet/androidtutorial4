@@ -21,19 +21,9 @@
 
         <activity android:name=".P001LayoutLayoutLand"></activity>
 
-        <activity android:name=".P002onConfigurationChanged"
-            android:configChanges="orientation|keyboardHidden|screenSize"/>
-
         <activity android:name=".P003ListVSGenerics"></activity>
 
         <activity android:name=".P004LayerList"></activity>
-
-        <activity android:name=".P005ActionSEND"></activity>
-        <activity android:name=".P005SEND">
-            <intent-filter>
-                <action android:name="android.intent.action.SEND"></action>
-            </intent-filter>
-        </activity>
 
         <activity android:name=".P006AsyncTaskMantik"></activity>
 
@@ -46,26 +36,17 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".P009MenuItemOverview"></activity>
-
-        <activity android:name=".P010CustomToastMessage"
-            android:configChanges="keyboardHidden|orientation|screenLayout"></activity>
+        <activity android:name=".P009MenuItemIcice"></activity>
 
         <activity android:name=".P011Handler"></activity>
 
-        <activity android:name=".P012AsyncTaskReview"></activity>
-
-        <activity android:name=".P013FixOrientation"></activity>
-
-        <activity android:name=".P014ThreadReview"></activity>
+        <activity android:name=".P013FixOriAsync"></activity>
 
         <activity android:name=".P015invalidateOptionsMenu"></activity>
 
         <activity android:name=".P016ViewAnimator"></activity>
 
-        <activity android:name=".P017ViewAnimatorAndMenu"></activity>
-
-        <activity android:name=".P018RadioGroupAndRecyclerView"></activity>
+        <activity android:name=".P017ViewAnimSetDisplCld"></activity>
 
         <activity android:name=".P019CardView"></activity>
 

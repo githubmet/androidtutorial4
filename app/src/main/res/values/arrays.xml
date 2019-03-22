@@ -3,23 +3,23 @@
 
     <string-array name="activity_names">
         <item>P001LayoutLayoutLand</item>
-        <item>P002onConfigurationChanged</item>
         <item>P003ListVSGenerics</item>
         <item>P004LayerList</item>
-        <item>HATAP005ActionSEND</item>
+
         <item>P006AsyncTaskMantik</item>
         <item>P007GridView</item>
         <item>P008IntentForBroadcast</item>
-        <item>P009MenuItemOverview</item>
-        <item>HATAP010CustomToastMessage</item>
+        <item>P009MenuItemIcice</item>
+
         <item>P011Handler</item>
-        <item>HATAP012AsyncTaskReview</item>
-        <item>P013FixOrientation</item>
-        <item>P014ThreadReview</item>
+
+        <item>P013FixOriAsync</item>
+
         <item>P015invalidateOptionsMenu</item>
         <item>P016ViewAnimator</item>
-        <item>P017ViewAnimatorAndMenu</item>
-        <item>P018RadioGroupAndRecyclerView</item>
+        <item>P017ViewAnimSetDisplCld</item>
+
+
         <item>P019CardView</item>
         <item>P020StyleAndThemeForOneView</item>
         <item>P021ViewPager</item>

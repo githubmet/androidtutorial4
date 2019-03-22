@@ -42,15 +42,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/textViewIntegerArrayP003"/>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="4dp"
-        android:background="@color/colorPrimaryDark"
-        />
-    <AutoCompleteTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/autoCompleteTextViewP003"/>
-
 
 </LinearLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">androidtutorial4</string>
     <string name="action_settings">Settings</string>
     <string name="special_katar">This is a CardView widget. CardView widgets can have
         shadows and rounded corners.
