@@ -58,6 +58,8 @@
 
         <activity android:name=".P023ViewPager"></activity>
 
+        <activity android:name=".P024AsyncTask"/>
+
     </application>
 
 </manifest>
