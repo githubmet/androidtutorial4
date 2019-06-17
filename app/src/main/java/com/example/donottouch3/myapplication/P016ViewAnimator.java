@@ -11,6 +11,7 @@ import android.widget.ViewAnimator;
 public class P016ViewAnimator extends Activity implements View.OnClickListener{
     ViewAnimator viewAnimator;
     boolean checkKontrol;
+    ViewAnimator viewAnimator2P016;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +29,19 @@ public class P016ViewAnimator extends Activity implements View.OnClickListener{
         viewAnimator.setOnClickListener(this);
         findViewById(R.id.buttonFirstP016).setOnClickListener(this);
         findViewById(R.id.buttonSecondP016).setOnClickListener(this);
+
+        viewAnimator2P016= findViewById(R.id.viewAnimator2P016);
+
+        Animation animationFadeIn= AnimationUtils
+                .loadAnimation(this,android.R.anim.fade_in);
+        Animation animationFadeOut= AnimationUtils
+                .loadAnimation(this,android.R.anim.fade_out);
+        viewAnimator2P016.setInAnimation(animationFadeIn);
+        viewAnimator2P016.setOutAnimation(animationFadeOut);
+        viewAnimator2P016.setOnClickListener(this);
+
+
+
     }
 
     @Override
@@ -45,6 +59,9 @@ public class P016ViewAnimator extends Activity implements View.OnClickListener{
                 break;
             case R.id.buttonSecondP016:
                     viewAnimator.showPrevious();
+                break;
+            case R.id.viewAnimator2P016:
+                viewAnimator2P016.showNext();
                 break;
         }
     }

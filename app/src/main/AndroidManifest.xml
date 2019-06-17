@@ -19,6 +19,11 @@
             </intent-filter>
         </activity>
 
+
+        <activity android:name=".P000AsyncTask"/>
+        <activity android:name=".P000GridView"/>
+        <activity android:name=".P012Orientation"/>
+
         <activity android:name=".P001LayoutLayoutLand"></activity>
 
         <activity android:name=".P003ListVSGenerics"></activity>

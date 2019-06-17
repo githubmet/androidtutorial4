@@ -14,14 +14,14 @@
             android:layout_height="wrap_content"
             android:minLines="3"
             android:gravity="center"
-            android:text="Hello"
+            android:text="@string/slide_in_left"
             android:background="#FFBB00"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minLines="3"
             android:gravity="center"
-            android:text="ViewAnimator"
+            android:text="@string/slide_out_right"
             android:background="#00FFBB"/>
     </ViewAnimator>
 
@@ -45,4 +45,26 @@
             android:id="@+id/buttonSecondP016"
             android:background="#FFBB00"/>
     </LinearLayout>
+
+    <ViewAnimator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewAnimator2P016"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="3"
+            android:gravity="center"
+            android:text="@string/fade_in"
+            android:background="#FFBB00"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="3"
+            android:gravity="center"
+            android:text="@string/fade_out"
+            android:background="#00FFBB"/>
+    </ViewAnimator>
+
 </LinearLayout>

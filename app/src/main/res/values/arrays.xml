@@ -2,6 +2,11 @@
 <resources>
 
     <string-array name="activity_names">
+
+        <item>P000AsyncTask</item>
+        <item>P000GridView</item>
+        <item>P012Orientation</item>
+
         <item>P001LayoutLayoutLand</item>
         <item>P003ListVSGenerics</item>
         <item>P004LayerList</item>

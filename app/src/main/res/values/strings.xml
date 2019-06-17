@@ -14,4 +14,17 @@
         \nYou are all I need \n<font fgcolor="#FFFFFFF">♠  are all ♥ need</font>
         \nYou are all I need \n<font fgcolor="#FFFFFFF">♠  are all ♥ need</font>
     </string>
+
+    <string name="start">start</string>
+    <string name="text">text</string>
+    
+    <string name="landscape">Landscape</string>
+    <string name="portrait">Portrait</string>
+    <string name="sensor">Sensor</string>
+
+    <string name="fade_in">fade_in</string>
+    <string name="fade_out">fade_out</string>
+    <string name="slide_in_left">slide_in_left</string>
+    <string name="slide_out_right">slide_out_right</string>
+    
 </resources>
